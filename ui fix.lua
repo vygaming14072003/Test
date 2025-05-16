@@ -432,7 +432,7 @@ function sitinklib:Start(GuiConfig)
     GuiConfig.Name = GuiConfig.Name or "Vỹ-Gaming Hub"
     GuiConfig.Description = GuiConfig.Description or ""
     GuiConfig["Info Color"] = GuiConfig["Info Color"] or Color3.fromRGB(5.000000176951289, 59.00000028312206, 113.00000086426735)
-    GuiConfig["Logo Info"] = GuiConfig["Logo Info"] or "rbxassetid://"
+    GuiConfig["Logo Info"] = GuiConfig["Logo Info"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game:GetService("Players").LocalPlayer.UserId .."&width=420&height=420&format=png"
 	GuiConfig["Logo Player"] = GuiConfig["Logo Player"] or "https://www.roblox.com/headshot-thumbnail/image?userId="..game:GetService("Players").LocalPlayer.UserId .."&width=420&height=420&format=png"
 	GuiConfig["Name Info"] = GuiConfig["Name Info"] or "Vỹ-Gaming Hub ComeBack"
     GuiConfig["Name Player"] = GuiConfig["Name Player"] or tostring(game:GetService("Players").LocalPlayer.Name)
